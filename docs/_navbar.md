@@ -1,0 +1,4 @@
+- <img src="translate.png" alt="Translations Icon" style="vertical-align: middle;"> **Translations**
+  - [En](/)
+  - [UA](/uk-ua/)
+  - [Ru](/ru-ru/)
