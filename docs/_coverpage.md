@@ -6,7 +6,7 @@
 - Profiles - heal, tank, inflict DPS
 - Regular updates from the developer (Me)
 
-[Get Started](#introducing)
+[Get Started](#advantages)
 
 ![](_media/bg.png)
 

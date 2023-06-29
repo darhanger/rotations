@@ -9,12 +9,12 @@
  
 - <img src="_media/icons/contact.png" alt="Contact Icon" style="vertical-align: middle;"> **Contact Me**
   - <a href="https://discord.com/users/250267265285488641">
-	<img src="_media/icons/discord.png" alt="Contact Icon">My Discord</a>
+	<img src="_media/icons/discord.png" alt="Discord Icon">My Discord</a>
   - <a href="https://discord.gg/xBFKJc6QRr">
-	<img src="_media/icons/server.png" alt="Contact Icon">Project Server</a>
+	<img src="_media/icons/server.png" alt="Server Icon">Project Server</a>
   - <a href="https://allmylinks.com/darhanger">
-	<img src="_media/icons/link.png" alt="Contact Icon">More Links</a>
+	<img src="_media/icons/link.png" alt="Link Icon">More Links</a>
 
-- <img src="_media/icons/pvp.png" alt="Contact Icon" style="vertical-align: middle;"> **PvP**
+- <img src="_media/icons/pvp.png" alt="PvP Icon" style="vertical-align: middle;"> **PvP**
   - <a href="https://discord.com/users/649003031391633438">
 	<img src="_media/icons/discord.png" alt="Contact Icon">Discord</a>	

@@ -16,6 +16,8 @@
 
 ### Q #6: When Im try load game via program launcher apears error #132?
 > **A #6: Error #132 can be caused by many reasons, but in most cases it occurs when there is a problem reading / writing game data in RAM, to fix it - try these methods:**.
+> - Check whether the program launcher in the file properties should run as administrator;
+> - Check on the WoW.exe file (in the World of Warcraft folder), in the file properties should run as administrator;
 > - Delete all temporary files (Cache / WTF folders);
 > - Driver update;
 > - Try running the game in openGL mode in a separate window and without sound:
