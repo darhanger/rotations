@@ -17,6 +17,6 @@
 
 - <img src="_media/icons/pvp.png" alt="PvP Icon" style="vertical-align: middle;"> **PvP Stuff**
   - <a href="https://funpay.com/users/4655925/">
-	<img src="_media/icons/discord.png" alt="Funpay Icon">FunPay</a>	  
+	<img src="_media/icons/funpay.png" alt="Funpay Icon">FunPay</a>	  
   - <a href="https://discord.com/users/649003031391633438">
-	<img src="_media/icons/discord.png" alt="Contact Icon">Discord</a>	
+	<img src="_media/icons/discord.png" alt="Discord2 Icon">Discord</a>	
