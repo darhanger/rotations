@@ -1,3 +1,20 @@
+## 1.3.5 (2023-07-21)
+**New:**
+- Changed the design of MainUI (program window);
+	- Some elements moved to other places;
+	- The menu has become more understandable;
+- Profiles can now load up to 3 (three) presets of settings;
+- Added **"Custom Button #2"** (to be applied in new updates);
+- Updated menu item **"Rotation settings"**;
+- Updated design with ElvUI integration;
+- Added buttons "Quick removal" nicknames of tanks;
+- Added ability to ignore/reduce/increase stacks https://wotlk.evowow.com/?spell=70106 / https://wotlk.evowow.com/?spell=69766 ;
+
+**Fixes**:
+- Healing / Members Engine fixes;
+- Minor bug fixes;
+- Optimization of heavy code;
+
 ## 1.3.4d (2023-06-20)
 - Small tweaks;
 - Fixed an issue when CR could stop after loot from mobs/chests, etc.
