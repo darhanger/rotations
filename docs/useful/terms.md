@@ -29,3 +29,4 @@
 > - 4.1. Services are considered provided by the Seller and accepted by the Buyer at the time of ordering the Services.
 > - 4.2. If the Buyer does not send a refusal of acceptance of the Services to the Seller within 3 (three) business days from the moment of accepting the Services, the Parties have agreed to consider the Services provided in good quality and in full.
 > - 4.3. Refunds under this Offer are not provided if the Buyer has not provided a refusal of the Services within the period specified in this Offer.
+> - 4.4. The minimum time for using the program is 2 (two) calendar days (test period), the maximum time for an active subscription is 1 (one) calendar year. After the expiration of the specified period, the license to use the program is automatically revoked.
