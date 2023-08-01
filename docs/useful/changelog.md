@@ -1,3 +1,7 @@
+## 1.3.5a (2023-08-01)
+- Improved security;
+- Minor bugfix;
+
 ## 1.3.5 (2023-07-21)
 **New:**
 - Changed the design of MainUI (program window);
