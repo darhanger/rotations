@@ -1,3 +1,11 @@
+## 1.3.5b (2023-08-16)
+- Improved security;
+- Minor bugfix;
+- New functions for GUI profiles;
+   - Will be used in profiles in future updates;
+- Refinement of Healing/Members engine;
+   - Allies in control will be automatically ignored and not healed / dispelled, etc.;
+
 ## 1.3.5a (2023-08-01)
 - Improved security;
 - Minor bugfix;
