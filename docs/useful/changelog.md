@@ -1,3 +1,8 @@
+## 1.3.6 (2023-09-17)
+- Improved security;
+- Minor bugfix;
+- Auto-update/download Core files when launcher starts.
+
 ## 1.3.5b (2023-08-16)
 - Improved security;
 - Minor bugfix;
