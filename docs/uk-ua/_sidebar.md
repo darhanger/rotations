@@ -2,6 +2,7 @@
   - [Опис ротацій](uk-ua/useful/profile.md)  
   - [Список змін](uk-ua/useful/changelog.md)
   - [F.A.Q.](uk-ua/useful/faq.md)
+  	- [Sirus.su](uk-ua/useful/sirus.md)
   - [Угода користувача](uk-ua/useful/terms.md)
 
 - <img src="_media/icons/soft.png" alt="Software Icon" style="vertical-align: middle;"> **Програма**
