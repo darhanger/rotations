@@ -1,3 +1,11 @@
+## 1.3.7c (2023-11-10)
+- Minor optimizations and tweaks for Streamer Mode;
+- Sound accompaniments have been added to all program elements. Now the entire interface and 99% of its components are WoW-Looklike;
+- Minor changes to Healing Engine;
+  - More accurate checks of some units;
+- It seems like it should improve performance a little;
+ - Most likely there will not be such strong drawdowns in FPS, or on the contrary, some FPS will even rise;
+
 ## 1.3.6 (2023-09-17)
 - Improved security;
 - Minor bugfix;
