@@ -4,7 +4,7 @@
 - Minor changes to Healing Engine;
   - More accurate checks of some units;
 - It seems like it should improve performance a little;
- - Most likely there will not be such strong drawdowns in FPS, or on the contrary, some FPS will even rise;
+  - Most likely there will not be such strong drawdowns in FPS, or on the contrary, some FPS will even rise;
 
 ## 1.3.6 (2023-09-17)
 - Improved security;
