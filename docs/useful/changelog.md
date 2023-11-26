@@ -1,3 +1,11 @@
+## 1.3.7d (2023-11-10)
+- Minor optimizations and tweaks for Streamer Mode;
+  - Fixed a bug when a noticeable strip of color was displayed in the GUI of profiles when the Class Colors mode was enabled;
+- Minor security and protection improvements;
+- Healing Forecast
+  - Optimization of the function and counting;
+    - Should have a positive impact on performance when playing as healers. Even if you haven't used this feature;
+
 ## 1.3.7c (2023-11-10)
 - Minor optimizations and tweaks for Streamer Mode;
 - Sound accompaniments have been added to all program elements. Now the entire interface and 99% of its components are WoW-Looklike;
