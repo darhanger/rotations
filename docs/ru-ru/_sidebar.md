@@ -2,7 +2,6 @@
   - [Описание ротаций](ru-ru/useful/profile.md)  
   - [Список изменений](ru-ru/useful/changelog.md)
   - [F.A.Q.](ru-ru/useful/faq.md)
-	- [Sirus.su](ru-ru/useful/sirus.md)
   - [Польз. соглашение](ru-ru/useful/terms.md)
 
 - <img src="_media/icons/soft.png" alt="Software Icon" style="vertical-align: middle;"> **Программа**
