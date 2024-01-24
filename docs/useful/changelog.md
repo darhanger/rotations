@@ -1,4 +1,14 @@
-## 1.3.7d (2023-11-10)
+## 1.3.8 (2024-01-24)
+- Support for the **Warmane Onyxia** server and its vanilla spells;
+- All functions and some kind of interaction between them, which checked the current character spec - reworked, and will work more correctly with minimal load;
+- Slightly fixed and improved the autofollow function. Now all rangers, aka hunters, healers, mages/warlocks, etc., will keep a distance of ~ 10 y from the target you are following, all melee will still run closely behind the target;
+- Made some changes to quickly enable/disable some special/individual functions in the core remotely;
+- The system for activating profiles in general has also changed slightly.
+  - Made available the "Free Weekend" function - in which all classes will be available to everyone for a short period of time;
+- Made system frames dynamic. When streamer mode is enabled, only chat text will be displayed;
+- The check for using items, potions and the rest has been slightly changed. Now there will be a comparison of levels, effects and selection of the best available to you at the moment;
+
+## 1.3.7d (2023-11-22)
 - Minor optimizations and tweaks for Streamer Mode;
   - Fixed a bug when a noticeable strip of color was displayed in the GUI of profiles when the Class Colors mode was enabled;
 - Minor security and protection improvements;
