@@ -1,3 +1,7 @@
+## 1.3.9b (2024-03-20)
+- New functional added;
+- Safety update;
+
 ## 1.3.8 (2024-01-24)
 - Support for the **Warmane Onyxia** server and its vanilla spells;
 - All functions and some kind of interaction between them, which checked the current character spec - reworked, and will work more correctly with minimal load;
