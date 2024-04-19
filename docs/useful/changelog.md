@@ -1,3 +1,14 @@
+## 1.3.9d (2024-04-20)
+- Minor improvements in terms of security;
+- Removing old and no longer needed functions;
+- “Wrapper” for new functions;
+- Updated **Auto Follow** function:
+  - In past all casters (+ hunter) have small distance ~ 10 yards. For now its have random value (distance from follow target to u), but  not less than 7-8 yards;
+    - By enabling Is Melee now even casters (+hunter) will have distance 1-2 yards to follow target;
+  - Same with melee classes. For now they have random follow distance which change time to time;
+- Changing CR pause function;
+- Add Key binding function for call GUI/enable profiles to any key (will expanded later);
+
 ## 1.3.9b (2024-03-20)
 - New functional added;
 - Safety update;
