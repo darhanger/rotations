@@ -1,3 +1,15 @@
+## 1.4.0 (2024-07-20)
+**Changes**
+- Small improvements in security;
+- The number of effects [Instability] can be reduced to 0;
+- Changes to the “stopcast tracker” - few people knew that this function has been available for more than 4 years, but for it to work you need to select some NPCs into focus. Now the function works in full automatic mode;
+- Optimization of the main UI of the program;
+- Optimization / removal of old / unnecessary code;
+- Optimization of all macros used in profiles;
+
+**New**
+- Added normal keybinds, similar to those in PQR;
+
 ## 1.3.9d (2024-04-20)
 - Minor improvements in terms of security;
 - Removing old and no longer needed functions;
