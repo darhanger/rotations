@@ -10,7 +10,7 @@
 - <img src="_media/icons/contact.png" alt="Contact Icon" style="vertical-align: middle;"> **Зв'язатися**
   - <a href="https://discord.com/users/250267265285488641">
 	<img src="_media/icons/discord.png" alt="Discord Icon">Мій Discord</a>
-  - <a href="https://discord.gg/xBFKJc6QRr">
+  - <a href="https://discord.gg/ZKFkvrzaU4">
 	<img src="_media/icons/server.png" alt="Server Icon">Сервер проєкту</a>
   - <a href="https://allmylinks.com/darhanger">
 	<img src="_media/icons/link.png" alt="Link Icon">Лінки</a>
