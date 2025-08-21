@@ -2,125 +2,113 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>DarhangeR Rotations ©</title>
-  <link rel="icon" href="https://darhanger.github.io/rotations/_media/favicon.ico" type="image/gif" />
-  <meta name="google-site-verification" content="6OvSZnxDwtpu2GD1Pdij1661aUSxEp9qkS5oytILICk" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-  <meta name="keywords"
-    content="rotation,wow,combat-rotation,wotlk,DarhangeR,3-3-5a,sirus,pqr,warmane,circle,blackdps,byster,купить ротацию вов 3.3.5,ротации вов,купить ротацию,buy rotation,dps rotation,tank rotation,healer rotation,wow addons,hekili,ovale,wotlk classic,wow guides,class guides,optimized rotation,аддоны для wow,ротации для танка,ротации для хила,гайды по wow,лучшие ротации wotlk,rotation addons,wow 3.3.5 guides,purchase rotation" />
-  <meta name="description" content="DarhangeR PvE Rotations ©" />
-  <meta property="og:description" content="PvE Combat Rotation for WoW 3.3.5a" />
-  <meta property="og:image" content="https://darhanger.github.io/rotations/_media/logo.png" />
-  <meta property="og:url" content="https://darhanger.github.io/rotations/" />
-  <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta charset="UTF-8" />
+	<title>DarhangeR Rotations ©</title>
+	<link rel="icon" href="https://darhanger.github.io/rotations/_media/favicon.ico" type="image/gif" />
+	<meta name="google-site-verification" content="6OvSZnxDwtpu2GD1Pdij1661aUSxEp9qkS5oytILICk" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<meta name="keywords" content="rotation,wow,combat-rotation,wotlk,DarhangeR,3-3-5a,sirus,pqr,warmane,circle,blackdps,byster,купить ротацию вов 3.3.5,ротации вов,купить ротацию,buy rotation,dps rotation,tank rotation,healer rotation,wow addons,hekili,ovale,wotlk classic,wow guides,class guides,optimized rotation,аддоны для wow,ротации для танка,ротации для хила,гайды по wow,лучшие ротации wotlk,rotation addons,wow 3.3.5 guides,purchase rotation"/>	
+	<meta name="description" content="DarhangeR PvE Rotations ©" />
+	<meta property="og:description" content="PvE Combat Rotation for WoW 3.3.5a" />
+	<meta property="og:image" content="https://darhanger.github.io/rotations/_media/logo.png" />
+	<meta property="og:url" content="https://darhanger.github.io/rotations/" />	
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />	
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0.9.0/dist/css/theme-simple-dark.css" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0.9.0/dist/css/theme-simple-dark.css" />
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css" >
 
-  <style>
-    :root {
-      --bg-dark-transparent: rgb(0 0 0 / 60%); /* прозрачный overlay */
-    }
+	<style>
+	  :root {
+		--bg-dark-transparent: rgb(0 0 0 / 60%);
+	  }
 
-    #bg-video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -2;
-    }
+	  #bg-video {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: -2; /* ниже всего */
+	  }
 
-    .video-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: var(--bg-dark-transparent);
-      backdrop-filter: blur(6px);
-      z-index: -1;
-    }
-
-    .cover {
-      position: relative;
-      z-index: 1;
-    }
-  </style>
+	  .video-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: var(--bg-dark-transparent);
+		backdrop-filter: blur(6px);
+		z-index: -1;
+	  }
+	</style>
 </head>
 
 <body>
-  <video autoplay muted loop playsinline id="bg-video">
-    <source src="_media/bg.mp4" type="video/mp4">
-  </video>
-  <div class="video-overlay"></div>
+	<div id="app">Loading...</div>
+	
+	<script>
+	var lang = location.hash.match(/#\/(uk-ua|ru-ru)\//);
 
-  <div id="app">Loading...</div>
-
-  <script>
-    var lang = location.hash.match(/#\/(uk-ua|ru-ru)\//);
-
-    if (lang) {
-      document.documentElement.setAttribute('lang', lang[1]);
-    }
-
-    window.$docsify = {
-      alias: {
-        '/.*/_navbar.md': '/_navbar.md',
-        '/uk-ua/(.*)':
-          'https://raw.githubusercontent.com/darhanger/rotations/main/docs/uk-ua/$1',
-        '/ru-ru/(.*)':
-          'https://raw.githubusercontent.com/darhanger/rotations/main/docs/ru-ru/$1',
-      },
-      name: "DarhangeR Rotations ©",
-      logo: 'logo.png height="52px"',
-      coverpage: ['/', '/uk-ua/', '/ru-ru/'],
-      onlyCover: true,
-      gtag: [
-        'G-WG8GW2G02P', // Google Analytics 4 (GA4)
-        'UA-275631644-1', // Google Universal Analytics (GA3)
-        'AW-XXXXXXXX', // Google Ads
-        'DC-XXXXXXXX', // Floodlight
-      ],
-      auto2top: true,
-      executeScript: true,
-      loadSidebar: true,
-      loadNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 3,
-      nameLink: {
-        '/uk-ua/': '#/uk-ua/',
-        '/ru-ru/': '#/ru-ru/',
-        '/': '#/',
-      },
-      themeable: {
-        responsiveTables: false
-      },
-      plugins: [
-        function (hook, vm) {
-          hook.beforeEach(function (html) {
-            return (
-              html +
-              '\n\n----\n\n' +
-              '<a href="https://github.com/darhanger" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by DarhangeR - Сopyright © 2020-2025</a>'
-            );
-          })
-        },
-      ],
-    };
-  </script>
-
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/gh/sy-records/docsify-nightly@master/lib/plugins/gtag.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+	if (lang) {
+		document.documentElement.setAttribute('lang', lang[1]);
+	}	
+	
+	window.$docsify = {
+		alias: {
+		  '/.*/_navbar.md': '/_navbar.md',
+		  '/uk-ua/(.*)':
+			'https://raw.githubusercontent.com/darhanger/rotations/main/docs/uk-ua/$1',			  
+		  '/ru-ru/(.*)':
+			'https://raw.githubusercontent.com/darhanger/rotations/main/docs/ru-ru/$1',
+		},
+		name: "DarhangeR Rotations ©",
+		logo: 'logo.png height="52px"',
+		coverpage: ['/', '/uk-ua/', '/ru-ru/'],
+		onlyCover: true,
+		gtag: [
+		  'G-WG8GW2G02P', // Google Analytics 4 (GA4)
+		  'UA-275631644-1', // Google Universal Analytics (GA3)
+		  'AW-XXXXXXXX', // Google Ads
+		  'DC-XXXXXXXX', // Floodlight		  
+		],
+		auto2top: true,
+		executeScript: true,
+		loadSidebar: true,
+		loadNavbar: true,
+		maxLevel: 4,
+		subMaxLevel: 3,
+		nameLink: {
+			'/uk-ua/': '#/uk-ua/',			
+			'/ru-ru/': '#/ru-ru/',
+			'/': '#/',
+		},
+		themeable: {
+			responsiveTables: false // default
+		},
+		plugins: [
+		  function (hook, vm) {
+			hook.beforeEach(function (html) {
+			  return (
+				html +
+				'\n\n----\n\n' +
+				'<a href="https://github.com/darhanger" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by DarhangeR - Сopyright © 2020-2025</a>'
+			  );
+			})
+		  },
+		],
+	};	
+	</script>
+	
+	<script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+	<script src="//cdn.jsdelivr.net/gh/sy-records/docsify-nightly@master/lib/plugins/gtag.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+	
 </body>
-
 </html>
