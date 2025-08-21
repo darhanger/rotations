@@ -7,8 +7,6 @@
 [Contact Me](https://discord.com/users/250267265285488641)
 [Try Free](https://c132062.hostnl02.fornex.host/)
 
-<video autoplay muted loop playsinline id="bg-video">
-  <source src="_media/bg_video.mp4" type="video/mp4">
-</video>
+![](_media/bg.png)
 
-<div class="video-overlay"></div>
+![color](#202225)
