@@ -1,13 +1,9 @@
-![logo](_media/logo.png)
+![logo](_media/logo_new.png)
 
-> PvE Ротації для WoW 3.3.5a
+> Скоро ...
 
-- Меню профілів класу з розширеними та гнучкими налаштуваннями
-- Профілі – лікують, танкують, наносять ДПС
-- Постійні оновлення від розробника (Меня)
+<video autoplay muted loop playsinline id="bg-video">
+  <source src="_media/bg_video.mp4" type="video/mp4">
+</video>
 
-[Початок](/uk-ua/#Переваги)
-
-![](_media/bg.png)
-
-![color](#202225)
+<div class="video-overlay"></div>
