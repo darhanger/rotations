@@ -12,4 +12,16 @@
   <source src="_media/bg_video.mp4" type="video/mp4">
 </video>
 
-<div class="overlay"></div>
+<style>
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* чтобы видео было фоном */
+}
+</style>
+
+![color](#202225)
