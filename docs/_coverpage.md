@@ -5,6 +5,6 @@
 - New Software - New ERA!
 
 [Try Free New](https://univer-project.com/)
-[Read About Old Project](#advantages)
+[Read About Old Project](#project-closed)
 
 ![](_media/bg.png)
